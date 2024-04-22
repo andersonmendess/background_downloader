@@ -814,7 +814,7 @@ object NotificationService {
             val descriptionText = context.getString(
                 R.string.bg_downloader_notification_channel_description
             )
-            val importance = NotificationManager.IMPORTANCE_LOW
+            val importance = NotificationManager.IMPORTANCE_HIGH
             val channel = NotificationChannel(
                 notificationChannelId, name, importance
             ).apply {

@@ -33,7 +33,6 @@ platforms:
   macos:
   windows:
 
-
 flutter:
   plugin:
     platforms:
