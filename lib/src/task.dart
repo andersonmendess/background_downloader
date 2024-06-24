@@ -673,7 +673,7 @@ final class DownloadTask extends Task {
           taskWithFilenameBuilder = taskWithSuggestedFilename}) async {
     try {
       final response = await DesktopDownloader.httpClient
-          .head(Uri.parse(url), headers: headers);
+          .get(Uri.parse(url), headers: headers);
       if ([200, 201, 202, 203, 204, 205, 206].contains(response.statusCode)) {
         return taskWithFilenameBuilder(this, response.headers, unique);
       }
