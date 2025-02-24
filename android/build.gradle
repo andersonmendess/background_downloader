@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'org.jetbrains.kotlin.plugin.serialization' version '2.0.0-RC1'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.8.0-RC'
 }
 
 group 'com.bbflight.background_downloader'
@@ -43,10 +43,10 @@ dependencies {
     implementation "androidx.concurrent:concurrent-futures-ktx:1.1.0"
     implementation "androidx.preference:preference-ktx:1.2.1"
     implementation "androidx.core:core-ktx:1.12.0"
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:2.0.0-RC1"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0-RC"
     implementation 'androidx.test:monitor:1.6.1'
     testImplementation "junit:junit:4.13.2"
-    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:2.0.0-RC1"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0-RC"
 }
 repositories {
     mavenCentral()
